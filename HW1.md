@@ -1,6 +1,6 @@
 ## Linux terminal (GitBash) commands
 ---
-__*1) Посмотреть где я
+__*1) Посмотреть где я*__
 
  >pwd<
 
