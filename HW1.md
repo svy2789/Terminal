@@ -1,8 +1,8 @@
 ## Linux terminal (GitBash) commands
 ---
 __*1) Посмотреть где я*__
-
- >pwd<
+```bash
+ >pwd
 
 2) Создать папку 
 
