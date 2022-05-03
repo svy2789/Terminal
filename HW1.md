@@ -86,23 +86,23 @@
 ---
 *22) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13*
  
--Создать текстовый файл script.txt
-
--#!/bin/bash
-
--cd test
-
--mkdir test1 test2 test3
-
--cd test1
-
--touch 1.txt 2.txt 3.txt 4.json 5.json
-
--mkdir test4 test5 test6
-
--ls -la
-
--mv 4.json 5.json test4
-
--Проверка: ./script.txt
+>Создать текстовый файл script.txt
+>
+>#!/bin/bash
+>
+>cd test
+>
+>mkdir test1 test2 test3
+>
+>cd test1
+>
+>touch 1.txt 2.txt 3.txt 4.json 5.json
+>
+>mkdir test4 test5 test6
+>
+>ls -la
+>
+>mv 4.json 5.json test4
+>
+>Проверка: ./script.txt
  
