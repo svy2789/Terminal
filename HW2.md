@@ -26,9 +26,13 @@ the second 2
 the third 3
 
 >cat > tf_2.txt -> Enter
+>
 >the first 1
+>
 >the second 2
+>
 >the third 3
+>
 >Ctrl+C
 ---
  7. Зайти в папку inner_dir_1 
