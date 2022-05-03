@@ -1,9 +1,9 @@
 ## Linux terminal (GitBash) commands
 ---
-__*1) Посмотреть где я*__
-```bash
+*1) Посмотреть где я*
+
  >pwd
-```bash
+
 2) Создать папку 
 
 mkdir qa1
