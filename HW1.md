@@ -16,18 +16,18 @@
 
 >mkdir qa2 qa3 qa4
 ---
-5) Зайти в любоую папку
+*5) Зайти в любоую папку*
 
-cd qa2
+>cd qa2
+---
+*6) Создать 5 файлов (3 txt, 2 json)*
 
-6) Создать 5 файлов (3 txt, 2 json)
+>touch 1.txt 2.txt 3.txt 4.json 5.json
+---
+*7) Создать 3 папки*
 
-touch 1.txt 2.txt 3.txt 4.json 5.json
-
-7) Создать 3 папки
-
-mkdir qa5 qa6 qa7
-
+>mkdir qa5 qa6 qa7
+---
 8. Вывести список содержимого папки
 
 ls -la
