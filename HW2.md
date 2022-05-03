@@ -21,9 +21,12 @@
 >touch tf_1.txt
 ---
 *6. Находясь в папке dir_1 через команду cat создать текстовый файл tf_2.txt со следующими строками:*
-the first 1
-the second 2
-the third 3
+
+*the first 1*
+
+*the second 2*
+
+*the third 3*
 
 >cat > tf_2.txt -> Enter
 >
@@ -35,86 +38,130 @@ the third 3
 >
 >Ctrl+C
 ---
- 7. Зайти в папку inner_dir_1 
+*7. Зайти в папку inner_dir_1*
 
-cd inner_dir_1
+>cd inner_dir_1
+---
+*8. Через cat сделать текстовый файл tf_3.txt  c любыми строками*
 
- 8. Через cat сделать текстовый файл tf_3.txt  c любыми строками
+>cat > tf_3.txt -> Enter
+>
+>Slava
+>
+>32
+>
+>Moskov
+>
+>Ctrl+C
+---
+*9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”*
 
-cat > tf_3.txt -> Enter
-Slava
-32
-Moskov
-Ctrl+C
+>cat >> tf_3.txt -> Enter
+>
+>the second 2
+>
+>Ctrl+C
+---
+*10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”*
 
- 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”
+>cat >> tf_3.txt -> Enter
+>
+>the sec 2
+>
+>Ctrl+C
+---
+*11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”*
 
-cat >> tf_3.txt -> Enter
-the second 2
-Ctrl+C
+>cat >> ../tf_2.txt ->Enter
+>
+>the sec 3
+>
+>Ctrl+C
+---
+*12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”*
 
- 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”
+>cat >> tf_3.txt -> Enter
+>
+>the seConD 2
+>
+>Ctrl+C
+---
+*13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”*
 
-cat >> tf_3.txt -> Enter
-the sec 2
-Ctrl+C
+>cat >> ../tf_2.txt -> Enter
+>
+>the seConD 2
+>
+>Ctrl+C
+---
+*14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.*
 
- 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3” 
+>cat > tf_4.txt -> Enter
+>
+>1111111111111111
+>
+>2222222222222222
+>
+>3333333333333333
+>
+>4444444444444444
+>
+>5555555555555555
+>
+>6666666666666666
+>
+>7777777777777777
+>
+>8888888888888888
+>
+>9999999999999999
+>
+>aaaaaaaaaaaaaaaa
+>
+>bbbbbbbbbbbbbbbb
+>
+>cccccccccccccccc
+>
+>dddddddddddddddd
+>
+>eeeeeeeeeeeeeeee
+>
+>ffffffffffffffff
+>
+>Ctrl+C
+---
+*15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.*
 
-cat >> ../tf_2.txt ->Enter
-the sec 3
-Ctrl+C
-
- 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
-
-cat >> tf_3.txt -> Enter
-the seConD 2
-Ctrl+C
-
- 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
-
-cat >> ../tf_2.txt -> Enter
-the seConD 2
-Ctrl+C
-
- 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.
-
-cat > tf_4.txt -> Enter
-1111111111111111
-2222222222222222
-3333333333333333
-4444444444444444
-5555555555555555
-6666666666666666
-7777777777777777
-8888888888888888
-9999999999999999
-aaaaaaaaaaaaaaaa
-bbbbbbbbbbbbbbbb
-cccccccccccccccc
-dddddddddddddddd
-eeeeeeeeeeeeeeee
-ffffffffffffffff
-Ctrl+C
-
- 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
-
-cat > tF_5.txt -> Enter
-one
-two
-three
-four
-five
-six
-seven
-eight
-nine
-ten
-eleven
-twelve
-thirteen
-Ctrl+C
-
+>cat > tF_5.txt -> Enter
+>
+>one
+>
+>two
+>
+>three
+>
+>four
+>
+>five
+>
+>six
+>
+>seven
+>
+>eight
+>
+>nine
+>
+>ten
+>
+>eleven
+>
+>twelve
+>
+>thirteen
+>
+>Ctrl+C
+---
  16. Вывести список всех файлов в папке.
 
 ls -la
